@@ -1,6 +1,6 @@
 #include <iostream>
 
-enum ForeColour 
+enum ForeColor 
 {
     Default = 0,
     Black = 30,
@@ -17,7 +17,7 @@ void drawBlock(int colorCode)
 {
     std::cout << "\x1b[" << colorCode << "m";
     std::cout << "블록블록블록\n블록블록블록\n블록블록블록" << std::endl;
-    std::cout << "\x1b[" << ForeColour::White << "m";
+    std::cout << "\x1b[" << ForeColor::White << "m";
 }
 int main()
 {
@@ -54,27 +54,27 @@ int main()
 
         if (InputNum == 1)
         {
-            drawBlock(ForeColour::White);
+            drawBlock(ForeColor::White);
         }
         else if (InputNum == 2)
         {
-            drawBlock(ForeColour::Red);
+            drawBlock(ForeColor::Red);
         }
         else if (InputNum == 4)
         {
-            drawBlock(ForeColour::Green);
+            drawBlock(ForeColor::Green);
         }
         else if (InputNum == 8)
         {
-            drawBlock(ForeColour::Yellow);
+            drawBlock(ForeColor::Yellow);
         }
         else if (InputNum == 16)
         {
-            drawBlock(ForeColour::Cyan);
+            drawBlock(ForeColor::Cyan);
         }
         else if (InputNum == 32)
         {
-            drawBlock(ForeColour::Magenta);
+            drawBlock(ForeColor::Magenta);
         }
         else if (InputNum == 64)
         {
