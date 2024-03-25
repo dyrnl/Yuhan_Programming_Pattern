@@ -13,11 +13,10 @@ enum ForeColor
     White = 37,
 };
 
-void drawBlock(int colorCode)
+void drawBlock()
 {
-    std::cout << "\x1b[" << colorCode << "m";
     std::cout << "블록블록블록\n블록블록블록\n블록블록블록" << std::endl;
-    std::cout << "\x1b[" << ForeColor::White << "m";
+    std::cout << "\x1b[" << ForeColor::Default << "m";
 }
 int main()
 {
@@ -41,6 +40,14 @@ int main()
     * (반복)
     */
 
+    const int White_Mask = 0b1;
+    const int Red_Mask = 0b10;
+    const int Green_Mask = 0b100;
+    const int Yellow_Mask = 0b1000;
+    const int Cyan_Mask = 0b10000;
+    const int Magenta_Mask = 0b100000;
+    const int Exit_CMD = 0b1000000;
+
     std::cout << "화면에 그림을 그리는 프로그램입니다." << std::endl;
     std::cout << "학번 : 202327021" << std::endl;
     std::cout << "이름 : 송영진" << std::endl;
@@ -52,38 +59,45 @@ int main()
         std::cout << "화면에 그릴 물체코드를 입력해주세요 : ";
         std::cin >> InputNum;
 
-        if (InputNum == 1)
+        if (InputNum & White_Mask)
         {
-            drawBlock(ForeColor::White);
+            std::cout << "\x1b[" << ForeColor::White << "m";
+            drawBlock();
         }
-        else if (InputNum == 2)
+        if (InputNum & Red_Mask)
         {
-            drawBlock(ForeColor::Red);
+            std::cout << "\x1b[" << ForeColor::Red << "m";
+            drawBlock();
         }
-        else if (InputNum == 4)
+        if (InputNum & Green_Mask)
         {
-            drawBlock(ForeColor::Green);
+            std::cout << "\x1b[" << ForeColor::Green << "m";
+            drawBlock();
         }
-        else if (InputNum == 8)
+        if (InputNum & Yellow_Mask)
         {
-            drawBlock(ForeColor::Yellow);
+            std::cout << "\x1b[" << ForeColor::Yellow << "m";
+            drawBlock();
         }
-        else if (InputNum == 16)
+        if (InputNum & Cyan_Mask)
         {
-            drawBlock(ForeColor::Cyan);
+            std::cout << "\x1b[" << ForeColor::Cyan << "m";
+            drawBlock();
         }
-        else if (InputNum == 32)
+        if (InputNum & Magenta_Mask)
         {
-            drawBlock(ForeColor::Magenta);
+            std::cout << "\x1b[" << ForeColor::Magenta << "m";
+            drawBlock();
         }
-        else if (InputNum == 64)
+        if (InputNum == Exit_CMD)
         {
             std::cout << "프로그램 종료." << std::endl;
             break;
         }
-        else
+        if (InputNum > 64 || InputNum < 0)
         {
             std::cout << "잘못된 값입니다. 다시 입력해주세요." << std::endl;
+            continue;
         }
     }
         return 0;

@@ -1,19 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\student\\Programming Pattern\\Yuhan_pattern\\2week\\2week\\",
+  "WorkspaceRootPath": "C:\\.DEV\\Yuhan_Programming_Pattern\\2week\\2week\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9755D5BF-5906-4B3C-BC0F-1C67DE7E7D33}|..\\..\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.vcxproj|C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{9755D5BF-5906-4B3C-BC0F-1C67DE7E7D33}|..\\..\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40235277-9503-4E59-A308-6ACA99E636AD}|..\\..\\3week\\3week-1\\3week-1.vcxproj|C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\3week-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{05400111-EADD-4FC3-969B-FFAB75A56D82}|..\\..\\3week\\3week.vcxproj|C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B6B0FC0-3361-48BC-AF05-4006B1EE0DAC}|2week\\2week.vcxproj|C:\\student\\Programming Pattern\\Yuhan_pattern\\2week\\2week\\2week\\2week.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{8B6B0FC0-3361-48BC-AF05-4006B1EE0DAC}|2week\\2week.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\2week\\2week\\2week\\2week.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B6B0FC0-3361-48BC-AF05-4006B1EE0DAC}|2week\\2week.vcxproj|solutionrelative:2week\\2week.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\3week-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,34 +32,46 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lecture03-HW.cpp",
-              "DocumentMoniker": "C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
+              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
               "RelativeDocumentMoniker": "..\\..\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
-              "ToolTip": "C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
+              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
               "RelativeToolTip": "..\\..\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAABAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAkwGMAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-21T01:10:55.968Z",
+              "WhenOpened": "2024-03-25T13:40:29.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Lecture03-HW.cpp",
+              "DocumentMoniker": "C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
+              "ToolTip": "C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\Lecture03-HW\\Lecture03-HW.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-21T01:10:55.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "3week-1.cpp",
               "DocumentMoniker": "C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\3week-1.cpp",
-              "RelativeDocumentMoniker": "..\\..\\3week\\3week-1\\3week-1.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\3week-1.cpp",
               "ToolTip": "C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\3week-1.cpp",
-              "RelativeToolTip": "..\\..\\3week\\3week-1\\3week-1.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week-1\\3week-1.cpp",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-20T02:12:42.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "2week.cpp",
-              "DocumentMoniker": "C:\\student\\Programming Pattern\\Yuhan_pattern\\2week\\2week\\2week\\2week.cpp",
+              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\2week\\2week\\2week\\2week.cpp",
               "RelativeDocumentMoniker": "2week\\2week.cpp",
-              "ToolTip": "C:\\student\\Programming Pattern\\Yuhan_pattern\\2week\\2week\\2week\\2week.cpp",
+              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\2week\\2week\\2week\\2week.cpp",
               "RelativeToolTip": "2week\\2week.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -64,12 +79,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "3week.cpp",
               "DocumentMoniker": "C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week.cpp",
-              "RelativeDocumentMoniker": "..\\..\\3week\\3week.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week.cpp",
               "ToolTip": "C:\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week.cpp",
-              "RelativeToolTip": "..\\..\\3week\\3week.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\student\\Programming Pattern\\Yuhan_pattern\\3week\\3week.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-20T00:47:45.116Z"
