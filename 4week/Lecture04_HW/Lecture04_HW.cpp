@@ -30,18 +30,14 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
 
 void cursorPositionCallback(GLFWwindow* window, double dxpos, double dypos)
 {
+    dxpos -= xpos;
+    dypos -= ypos;
     if (isLeftMouseButtonPressed)
     {
-        double deltaX = dxpos - xpos;
-        double deltaY = dypos - ypos;
-        // Left drag
         glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
     }
     else if (isRightMouseButtonPressed)
     {
-        double deltaX = dxpos - xpos;
-        double deltaY = dypos - ypos;
-        // Right drag
         glClearColor(0.0f, 0.0f, 1.0f, 1.0f); 
     }
 
