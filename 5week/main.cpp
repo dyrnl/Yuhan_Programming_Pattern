@@ -1,23 +1,14 @@
-// 과제물 프로젝트명 : Lecture04_HW
-// idel : 화면색 검정색으로 클리어
-// 마우스 오른쪽 KeyDown : 빨간색
-// 마우스 오른쪽 KeyUp : 원상복구
-// 마우스 왼쪽 KeyDown : 녹색
-// 마우스 왼쪽 KeyUp : 원상복구
-// 마우스 오른쪽 KeyDown 드래그 : 파랑색
-// 마우스 왼쪽 KeyDown 드래그 : 마젠타
-
 #pragma comment(lib, "Opengl32.lib")
 #include <GLFW/glfw3.h>
 #include <iostream>
 
-float moveFactor = 0.0f;
+float verticalMoveFactor = 0.0f;
+float horizontalMoveFactor = 0.0f;
 float scaleFactor = 1.0f;
-
 
 bool isLeftMouseButtonPressed = false;
 bool isRightMouseButtonPressed = false;
-double xpos = 0.0, ypos = 0.0;
+double lastXPos = 0.0, lastYPos = 0.0;
 
 void errorCallback(int error, const char* description)
 {
@@ -32,18 +23,14 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
     }
     if (key == GLFW_KEY_UP && action == GLFW_PRESS)
     {
-        moveFactor += 0.01f;
-    }
-    if (key == GLFW_KEY_RIGHT && action == GLFW_PRESS)
-    {
-        scaleFactor += 0.1f;
+        verticalMoveFactor += 0.01f;
     }
 }
 
-void cursorPositionCallback(GLFWwindow* window, double dxpos, double dypos)
+void cursorPositionCallback(GLFWwindow* window, double xpos, double ypos)
 {
-    dxpos -= xpos;
-    dypos -= ypos;
+    double dx = xpos - lastXPos;
+    double dy = ypos - lastYPos;
     if (isLeftMouseButtonPressed)
     {
         glClearColor(1.0f, 0.0f, 1.0f, 1.0f);
@@ -52,8 +39,23 @@ void cursorPositionCallback(GLFWwindow* window, double dxpos, double dypos)
     {
         glClearColor(0.0f, 0.0f, 1.0f, 1.0f);
     }
-    xpos = dxpos;
-    ypos = dypos;
+
+    lastXPos = xpos;
+    lastYPos = ypos;
+
+    if (isRightMouseButtonPressed)
+    {
+        scaleFactor += dx / 1000.0f;
+    }
+
+    if (isLeftMouseButtonPressed)
+    {
+        verticalMoveFactor -= dy / 1000.0f;
+    }
+    if (isLeftMouseButtonPressed)
+    {
+        horizontalMoveFactor += dx / 1000.0f;
+    }
 }
 
 void mouseButtonCallback(GLFWwindow* window, int button, int action, int mods)
@@ -62,13 +64,13 @@ void mouseButtonCallback(GLFWwindow* window, int button, int action, int mods)
     {
         isLeftMouseButtonPressed = true;
         isRightMouseButtonPressed = false;
-        glfwGetCursorPos(window, &xpos, &ypos);
+        glfwGetCursorPos(window, &lastXPos, &lastYPos);
     }
     else if (button == GLFW_MOUSE_BUTTON_RIGHT && action == GLFW_PRESS)
     {
         isRightMouseButtonPressed = true;
         isLeftMouseButtonPressed = false;
-        glfwGetCursorPos(window, &xpos, &ypos);
+        glfwGetCursorPos(window, &lastXPos, &lastYPos);
     }
     else if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_RELEASE)
     {
@@ -105,41 +107,42 @@ void mouseButtonCallback(GLFWwindow* window, int button, int action, int mods)
 int Render()
 {
     glBegin(GL_TRIANGLES);
-    glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(0.0f , (1.0f + moveFactor) * scaleFactor);
 
     glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(0.3f, (0.3f + moveFactor) * scaleFactor);
-    
-    glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(-0.3f, (0.3f + moveFactor) * scaleFactor);
-    glEnd();
-    
-    glBegin(GL_TRIANGLES);
-    glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(0.8f, 0.3f);
+    glVertex2f((0.5f + horizontalMoveFactor) * scaleFactor, (0.3f + verticalMoveFactor) * scaleFactor);
 
     glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(0.5f, -0.5f);
+    glVertex2f((-0.5f + horizontalMoveFactor) * scaleFactor, (0.3f + verticalMoveFactor) * scaleFactor);
 
     glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(0.3f, 0.3f);
+    glVertex2f((0.0f + horizontalMoveFactor) * scaleFactor, (-0.2f + verticalMoveFactor) * scaleFactor);
     glEnd();
 
     glBegin(GL_TRIANGLES);
-    glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(1.6f, -0.4f);
 
     glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(0.5f, -0.5f);
+    glVertex2f((0.0f + horizontalMoveFactor) * scaleFactor, (0.7f + verticalMoveFactor) * scaleFactor);
 
     glColor3f(1.0f, 1.0f, 1.0f);
-    glVertex2f(0.3f, 0.3f);
+    glVertex2f((0.2f + horizontalMoveFactor) * scaleFactor, (-0.1f + verticalMoveFactor) * scaleFactor);
+
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex2f((-0.4f + horizontalMoveFactor) * scaleFactor, (-0.5f + verticalMoveFactor) * scaleFactor);
+
     glEnd();
 
+    glBegin(GL_TRIANGLES);
 
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex2f((0.0f + horizontalMoveFactor) * scaleFactor, (0.7f + verticalMoveFactor) * scaleFactor);
 
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex2f((0.4f + horizontalMoveFactor) * scaleFactor, (-0.5f + verticalMoveFactor) * scaleFactor);
 
+    glColor3f(1.0f, 1.0f, 1.0f);
+    glVertex2f((-0.2f + horizontalMoveFactor) * scaleFactor, (-0.1f + verticalMoveFactor) * scaleFactor);
+
+    glEnd();
 
     return 0;
 }
@@ -169,7 +172,7 @@ int main(void)
     {
         glfwPollEvents();
         glClear(GL_COLOR_BUFFER_BIT);
-        
+
         Render();
 
         glfwSwapBuffers(window);
