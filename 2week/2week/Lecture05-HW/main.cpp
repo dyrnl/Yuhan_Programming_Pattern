@@ -48,11 +48,8 @@ void cursorPositionCallback(GLFWwindow* window, double xpos, double ypos)
 
     if (isLeftMouseButtonPressed)
     {
-        verticalMoveFactor -= dy / 1000.0f;
-    }
-    if (isLeftMouseButtonPressed)
-    {
         horizontalMoveFactor += dx / 1000.0f;
+        verticalMoveFactor -= dy / 1000.0f;
     }
 }
 
