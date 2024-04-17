@@ -1,2 +1,5 @@
 ﻿  3week.cpp
-  3week.vcxproj -> C:\student\Programming Pattern\Yuhan_pattern\2week\2week\x64\Debug\3week.exe
+C:\.DEV\Yuhan_Programming_Pattern\3week\3week.cpp(12,6): error C2086: 'int num': 재정의
+  C:\.DEV\Yuhan_Programming_Pattern\3week\3week.cpp(7,6):
+  'num' 선언을 참조하십시오.
+  
