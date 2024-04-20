@@ -3,25 +3,16 @@
   "WorkspaceRootPath": "C:\\.DEV\\Yuhan_Programming_Pattern\\2week\\2week\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77AF27B7-B205-442F-AB24-4BD6181F21F9}|..\\..\\7week\\7week.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\star.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5A51B49C-B4CA-4331-ADAC-B2007D1AAB7D}|..\\..\\7week\\Lecture07-HW\\Lecture07-HW.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\Lecture07-HW\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77AF27B7-B205-442F-AB24-4BD6181F21F9}|..\\..\\7week\\7week.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{5A51B49C-B4CA-4331-ADAC-B2007D1AAB7D}|..\\..\\7week\\Lecture07-HW\\Lecture07-HW.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\Lecture07-HW\\star.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77AF27B7-B205-442F-AB24-4BD6181F21F9}|..\\..\\7week\\7week.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F7B91E40-BA72-4891-983C-591EAA748C18}|..\\..\\Lecture06-HW\\Lecture06-HW.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\Lecture06-HW\\mList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77AF27B7-B205-442F-AB24-4BD6181F21F9}|..\\..\\7week\\7week.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77AF27B7-B205-442F-AB24-4BD6181F21F9}|..\\..\\7week\\7week.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77AF27B7-B205-442F-AB24-4BD6181F21F9}|..\\..\\7week\\7week.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77AF27B7-B205-442F-AB24-4BD6181F21F9}|..\\..\\7week\\7week.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F7B91E40-BA72-4891-983C-591EAA748C18}|..\\..\\Lecture06-HW\\Lecture06-HW.vcxproj|C:\\.DEV\\Yuhan_Programming_Pattern\\Lecture06-HW\\mList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,97 +22,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "star.cpp",
-              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\star.cpp",
-              "RelativeDocumentMoniker": "..\\..\\7week\\star.cpp",
-              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\star.cpp",
-              "RelativeToolTip": "..\\..\\7week\\star.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\Lecture07-HW\\star.cpp",
+              "RelativeDocumentMoniker": "..\\..\\7week\\Lecture07-HW\\star.cpp",
+              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\Lecture07-HW\\star.cpp",
+              "RelativeToolTip": "..\\..\\7week\\Lecture07-HW\\star.cpp",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-17T02:26:56.027Z",
+              "WhenOpened": "2024-04-20T06:39:16.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\Lecture07-HW\\main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\7week\\Lecture07-HW\\main.cpp",
+              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\Lecture07-HW\\main.cpp",
+              "RelativeToolTip": "..\\..\\7week\\Lecture07-HW\\main.cpp",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T06:35:53.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "mObject.h",
-              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mObject.h",
-              "RelativeDocumentMoniker": "..\\..\\7week\\mObject.h",
-              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mObject.h",
-              "RelativeToolTip": "..\\..\\7week\\mObject.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-17T02:25:50.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "mObject.cpp",
-              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mObject.cpp",
-              "RelativeDocumentMoniker": "..\\..\\7week\\mObject.cpp",
-              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mObject.cpp",
-              "RelativeToolTip": "..\\..\\7week\\mObject.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-17T02:25:42.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "mList.cpp",
-              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mList.cpp",
-              "RelativeDocumentMoniker": "..\\..\\7week\\mList.cpp",
-              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mList.cpp",
-              "RelativeToolTip": "..\\..\\7week\\mList.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-17T01:55:16.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "mList.h",
-              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mList.h",
-              "RelativeDocumentMoniker": "..\\..\\7week\\mList.h",
-              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\mList.h",
-              "RelativeToolTip": "..\\..\\7week\\mList.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\Lecture06-HW\\mList.h",
+              "RelativeDocumentMoniker": "..\\..\\Lecture06-HW\\mList.h",
+              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\Lecture06-HW\\mList.h",
+              "RelativeToolTip": "..\\..\\Lecture06-HW\\mList.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-17T01:54:40.489Z",
+              "WhenOpened": "2024-04-20T06:28:23.79Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "stdafx.h",
-              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\stdafx.h",
-              "RelativeDocumentMoniker": "..\\..\\7week\\stdafx.h",
-              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\stdafx.h",
-              "RelativeToolTip": "..\\..\\7week\\stdafx.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-17T01:53:50.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\main.cpp",
-              "RelativeDocumentMoniker": "..\\..\\7week\\main.cpp",
-              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\7week\\main.cpp",
-              "RelativeToolTip": "..\\..\\7week\\main.cpp",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Title": "mList.cpp",
+              "DocumentMoniker": "C:\\.DEV\\Yuhan_Programming_Pattern\\Lecture06-HW\\mList.cpp",
+              "RelativeDocumentMoniker": "..\\..\\Lecture06-HW\\mList.cpp",
+              "ToolTip": "C:\\.DEV\\Yuhan_Programming_Pattern\\Lecture06-HW\\mList.cpp",
+              "RelativeToolTip": "..\\..\\Lecture06-HW\\mList.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-17T01:53:35.712Z",
+              "WhenOpened": "2024-04-20T06:28:19.419Z",
               "EditorCaption": ""
             }
           ]
